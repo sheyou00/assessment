@@ -1,0 +1,45 @@
+body{
+  background-color: #fdffff;
+  color: gray;
+  width: 800px;
+  margin-right: auto;
+  margin-left: 350px;
+}
+
+button{
+  height: 40px;
+  padding: 5px 20px;
+  margin-top:30px;
+  margin-left:80px;
+  background-color: #04A6EB;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 25px;
+  outline:none;
+}
+
+button:hover {
+  background-color: #3366CC;
+}
+
+.frame{
+  height: 100px;
+  width: 550px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+input{
+  height: 50px;
+  width: 300px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size:17px;
+}
+
+
+input[type="text"]::placeholder{
+  color: gray;
+}
